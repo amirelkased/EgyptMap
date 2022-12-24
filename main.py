@@ -63,8 +63,6 @@ def config_labels(bg_color, fg_color):
     amir.config(bg=bg_color, fg=fg_color)
     ahmed.config(bg=bg_color, fg=fg_color)
     omnia.config(bg=bg_color, fg=fg_color)
-    mayar.config(bg=bg_color, fg=fg_color)
-    shrouq.config(bg=bg_color, fg=fg_color)
     team_supervise.config(bg=bg_color, fg=fg_color)
     ahmed_ghozia.config(bg=bg_color, fg=fg_color)
 
@@ -162,16 +160,6 @@ omnia = Label(about_frame, bg=light_side, text='  Omnia Saad', image=linkedin_lo
               fg='black', font=('courier', 18, 'bold'), cursor='hand2', compound=LEFT)
 omnia.place(x=280, y=420)
 omnia.bind('<Button-1>', lambda e: callback('https://www.linkedin.com/in/omnia-saad-19b4801b7/'))
-
-mayar = Label(about_frame, bg=light_side, text='  Mayar Emad', image=linkedin_logo,
-              fg='black', font=('courier', 18, 'bold'), cursor='hand2', compound=LEFT)
-mayar.place(x=280, y=470)
-mayar.bind('<Button-1>', lambda e: callback('https://www.linkedin.com/in/mayar-emad-6b9374206'))
-
-shrouq = Label(about_frame, bg=light_side, text='  Shrouq El naggar', image=linkedin_logo,
-               fg='black', font=('courier', 18, 'bold'), cursor='hand2', compound=LEFT)
-shrouq.place(x=280, y=520)
-shrouq.bind('<Button-1>', lambda e: callback('https://www.linkedin.com/in/shrouqelnaggar1'))
 
 team_supervise = Label(about_frame, bg=light_side, text='Supervisor : ', font=('courier', 18, 'bold'),
                        fg='black')
